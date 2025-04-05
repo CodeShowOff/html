@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="beige">
+    <main>
+        <marquee style="color: blueviolet; background-color: aqua;"> Hello Everyone! </marquee>
+        
+        <!-- List in HTML -->
+            <p>UNORDERED LIST:</p>
+            <ul>
+                <li>Apple</li>
+                    <ul>
+                        <li>color: red</li>
+                        <li>season: winters</li>
+                    </ul>
+                <li>Mango</li>
+                    <ul>
+                        <li>color: yellow</li>
+                        <li>season: summers</li>
+                    </ul>
+                <li>Litchi</li>
+            </ul>
+
+
+            <p>ORDERED LIST:</p>
+            <ol>
+                <li>Apple</li>
+                    <ol>
+                        <li>color: red</li>
+                        <li>season: winters</li>
+                    </ol>
+                <li>Mango</li>
+                    <ol>
+                        <li>color: yellow</li>
+                        <li>season: summers</li>
+                    </ol>
+                <li>Litchi</li>
+            </ol>
+        <br>
+        
+
+
+        <!-- Tables in HTML -->
+            <table border="1">
+                <caption style="background-color: red;">Students Data</caption>
+                <thead>
+                    <tr>
+                        <th colspan="2">CSE Students Data</th>
+                    </tr>
+                    <tr>
+                        <th>Name</th>
+                        <th>Roll No.</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Shubham</td>
+                        <td>01</td>
+                    </tr>
+                    <tr>
+                        <td>Virat</td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td>Dhoni</td>
+                        <td>07</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+
+
+
+        
+        <!-- Forms in HTML -->
+            <form>
+                <p><b>Registration Form:</b></p>
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Input Name" name="name"> <br>
+                
+                <label for="username">Username:</label>
+                <input type="text" id="username" placeholder="Input username" name="username"> <br>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Input password" name="password"> <br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Input email" name="email"> <br>
+                
+                <lebel>Class:</lebel>
+                <input type="radio" value="classXI" name="class">XI
+                <input type="radio" value="classXII" name="class">XII <br>
+
+                <label>Subjects:</label>
+                <input type="checkbox" value="English" name="subjects">English
+                <input type="checkbox" value="Hindi" name="subjects">Hindi 
+                <input type="checkbox" value="Maths" name="subjects">Maths
+                <input type="checkbox" value="Science" name="subjects">Science
+                <input type="checkbox" value="Social Studies" name="subjects">Social Studies 
+                <br>
+
+                <label>City:</label>
+                <select name="city">
+                    <option value="select">Select</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Kolkata">Kolkata</option>
+                    <option value="Banglore">Banglore</option>
+                </select>
+                <br>
+
+                <label>Comments:</label><br>
+                <textarea name="comments" placeholder="Input your comments..." rows="5" cols="25"></textarea>
+                <br>
+
+                <button type="submit">Submit</button>
+            </form>
+    </main>
+</body>
+</html>
